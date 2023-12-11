@@ -52,7 +52,7 @@ local amount = rebirthSettings["Amount"]
 local v1 = cost + cost * (plr.leaderstats.Rebirths.Value * rebirthSettings["Time"])
 local strength = plr.leaderstats.Strength
 local active = plr:WaitForChild("Values").AutoRebirthActive
-local function u4(p1) --nums changer (got it from github ;))
+local function u4(p1)
 	for v8 = 1, #u1 do
 		if tonumber(p1) < 10 ^ (v8 * 3) then
 			return math.floor(p1 / (10 ^ ((v8 - 1) * 3) / 100)) / 100 .. u1[v8];
