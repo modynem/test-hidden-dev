@@ -55,10 +55,10 @@ local active = plr:WaitForChild("Values").AutoRebirthActive
 local function u4(p1)
 	for v8 = 1, #u1 do
 		if tonumber(p1) < 10 ^ (v8 * 3) then
-			return math.floor(p1 / (10 ^ ((v8 - 1) * 3) / 100)) / 100 .. u1[v8];
-		end;
-	end;
-	return tostring(p1);
+			return math.floor(p1 / (10 ^ ((v8 - 1) * 3) / 100)) / 100 .. u1[v8]
+		end
+	end
+	return tostring(p1)
 end
 
 --NOTE
